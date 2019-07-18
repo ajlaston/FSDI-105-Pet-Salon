@@ -13,12 +13,13 @@ const salon = { //object
 
     petCount() {
         document.getElementById("count").innerHTML=`<h2>Number of Pets: ${salon.pets.length}</h2>`
-    }
+    },
+ 
 }
 
 // object destructuring
 
-let {name,phone,address:{street,number},workingHours:{open,close},petCount}=salon;
+let {name,phone,address:{street,number},workingHours:{open,close},petCount,petName}=salon;
 
 document.getElementById("info").innerHTML=`<h2>${name} (${phone}), ${street} ${number} <br>
 it is open from ${open} to ${close} </h2>`;
@@ -31,6 +32,7 @@ function Pet(name,age,service,ownername,contactPhone) {
     this.ownername=ownername;
     this.contactPhone=contactPhone;
     this.service=service;
+    this.name=name;
     this.feed=function(){
         this.hunger=-10;
         this.happiness+=10;
@@ -40,7 +42,10 @@ function Pet(name,age,service,ownername,contactPhone) {
         + this.happiness); 
     };
     this.ownerContact= function(){
-        console.log("Owner Name:" + this.ownername + "\n"+ "Phone:" + this.contactPhone)
+        console.log("Owner Name:" + this.ownername + "\n"+ "Phone:" + this.contactPhone);
+    };
+    this.petName= function(){
+        console.log(this.name)
     }
 }
 
@@ -54,6 +59,8 @@ pet1.feed();
 pet1.status();
 pet1.ownerContact();
 
+
+
 // console.log(pet1)
 
 salon.pets.push(pet1);
@@ -63,3 +70,9 @@ salon.pets.push(pet3);
 console.table(salon.pets);
 
 petCount();
+
+console.log("Pet Names:");
+pet1.petName();
+pet2.petName();
+pet3.petName();
+
