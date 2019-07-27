@@ -1,0 +1,423 @@
+/* Fonts */
+/* font-family: 'Lato', sans-serif; --header etc
+font-family: 'Open Sans', sans-serif --para*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0px;
+}
+
+
+img {
+    width:15%;
+}
+
+h1 {
+    font-size: 3.0rem;
+    text-align: center;
+    color: white
+}
+
+h2 {
+   font-size: 2.5rem;
+   text-align: center;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 2.0rem;
+    
+}
+
+h1,h2,h3,h4,blockquote, a {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.logo {
+    width: 40%;
+}
+
+blockquote {
+    font-size: 1.6rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+/* style for boxes */
+.site-header.initial {
+    background:url(../img/bannerdog.jpg);
+    height: 100vh;
+    background-size: cover;
+    min-height: 400px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+/* style to elements */
+
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.0rem;
+    margin: 0px 8px;
+}
+
+.navigation a:hover {
+    color: #f30;
+}
+
+.navigation a:last-of-type {
+    margin: 0;
+}
+
+
+/* .bar {
+display: flex;
+justify-content: right;
+    padding: 20px;
+} */
+
+/* .main {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+} */
+
+.noland {
+    background-color: #333333;
+  
+}
+
+.site-divs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.all-divs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.square {
+    flex-basis: 33%;
+    border: solid 2px rgb(201, 205, 209);
+    border-radius: 5px;
+    margin: 7px;
+    padding: 17px;
+    
+
+}
+
+
+.v-label {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    background-color: #ff4400;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.input-blog {
+    border: hidden;
+    border-radius: 5px;
+   padding: 10px;
+   margin: 10px 0px 10px 6px;
+  width: 94%;
+  background-color: #f30;
+
+}
+
+
+.bt-container {
+ display: flex;
+ justify-content: space-between;
+
+ 
+}
+
+
+.desc {
+   margin: 40px 0px;
+}
+
+
+/* transform */
+
+
+.contact-us a{
+    
+    color: #f30;
+}
+
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.skinny {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+hr {
+    border: solid 1px rgb(201, 205, 209);
+}
+
+
+.skinny img {
+    width: 40%;
+}
+
+.desc h3{
+ text-align: center;
+}
+
+.blog {
+    flex-basis: 60%;
+}
+
+
+.opinions {
+  margin-top: 10px;
+    border: hidden;
+    border-radius: 5px;
+    padding: 10px 10px 170px 10px;
+    width: 70%;
+    height: 10%;
+    background-color: rgb(183, 255, 111);
+    margin-right: 6px; 
+    
+}
+
+.opinions h3 {
+text-align: center;
+}
+
+
+.media {
+    display: flex;
+    justify-content: center;
+}
+
+.media-content {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.video {
+  margin-bottom: 40px;
+}
+
+
+.podcast {
+    margin-left: 45px;
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    margin: 0px 79px 20px 79px;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer-nav a
+{
+    text-decoration: none;
+    color: #f30;
+    margin: 12px;
+
+}
+
+
+.footer-items {
+    padding: 10px;
+}
+
+.media {
+ 
+ border-radius: 5px;
+ overflow: auto;
+ margin: 0px 79px 20px 79px;
+
+}
+
+
+
+.header-content {
+    max-width: 120rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content {
+    width: 95%;
+    max-width: 120rem;
+    margin: auto;
+}
+
+/* Contact header */
+
+.contact-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
+/*Contact Form*/
+
+label {
+    display: block;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea
+{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    width: 80%;
+    background-color: #e1e1e1;
+    padding: .5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+select {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    width: 4
+    0%;
+    background-color: #e1e1e1;
+    padding: .5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+input[type="tel"] {
+    width: 30%;
+}
+
+legend {
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+fieldset {
+    border: 2px solid rgb(201, 205, 209);
+    border-radius: 1rem;
+}
+
+textarea {
+    overflow: auto;
+}
+
+.btn.btn-primary {
+    border: none;
+    background-color: #f30 !important;
+}
+
+.contact {
+   margin: 10px 0px;
+}
+
+/* About US */
+
+.banner {
+    width: 100%;
+}
+
+.qoute {
+    color: #868686;
+}
+
+.team {
+    width:50%;
+}
+
+
+.owner {
+    width: 30%;
+}
+
+.join {
+    border: hidden;
+    border-radius: 6px;
+    background-color: #f30;
+    margin-bottom: 20px;
+}
+
+.join a {
+    text-decoration: none;
+    color: white;
+    text-align: center;   
+   
+}
+
+.join p {
+    font-size: 20px;
+    padding: 6px;
+}
+
+.petList {
+    border: solid 1px #636262;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30%;
+    margin: 5px 0px;
+    font-size: 2.0rem;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+}
+

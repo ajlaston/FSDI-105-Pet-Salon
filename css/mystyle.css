@@ -1,0 +1,28 @@
+.icons p {
+    margin: 8px;
+}
+
+.banner {
+    background-image: url(../img/bannerdog.jpg);
+    background-position: center center;
+    background-size: 100%;
+    overflow: hidden;
+    padding-top: 40%;
+    background-repeat: no-repeat;
+
+}
+
+.banner p{
+    color: white;
+    
+
+}
+
+.site-margin {
+    margin: 0px 200px;
+}
+
+.prices {
+    background-color: rgb(183, 255, 183);
+    height: 80%;
+}

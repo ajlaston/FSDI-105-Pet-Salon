@@ -2,30 +2,253 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:300i,400,700&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pet Salon</title>
+
+    <!-- JS -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script> $(function() {
+        $("header.hidden").fadeIn().removeClass("hidden");
+    });
+    </script>
 </head>
 
 <body>
 
-    <h1>Pet Salon</h1>
-    <div id="info">
+    <header  class="hidden site-header initial .parallax">
+        <div class="main header-content">
+            <div class="bar">
+                <!-- <a href="index.html"><img id="logo" class="logo" src="img/logo.png" alt="logo"></a> -->
+                <nav id="menu2" class="navigation">
+                    <a class="n" href="index.html">Home</a>
+                    <a class="n" href="about.html">About Us</a>
+                    <a class="n" href="#">Gallery</a>
+                    <a class="n" href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <div>
+                <h1>Pet Salon</h1>
+            </div>
+            
+        </div>
+    </header>
+    <section class="content">
+        <h2>More about us</h2>
+
+        <section>
+            <div class="site-divs">
+                <div class="all-divs">
+                    <div class="square">
+                        <img src="img/location.png" alt="location icon">
+                        <h3>Location</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa a nisi consequatur
+                            tempora
+                            nam
+                            ullam
+                            earum.
+                            Aspernatur obcaecati eos sapiente modi dignissimos rerum delectus, cum ipsa porro harum.
+                            Quasi,
+                            animi iusto?
+                            Cum, mollitia eos dolor minus dolore atque ex tenetur? Eum porro delectus culpa nesciunt
+                            quis
+                            totam
+                            vel.
+                            Corrupti?</p>
+
+                    </div>
 
 
-    </div>
+                    <div class="square">
+                        <img src="img/money.png" alt="prices">
+                        <h3>Prices</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ipsam quia alias veritatis
+                            inventore
+                            sit quod
+                            odio! Inventore ad ipsum laboriosam possimus optio fugit numquam error deserunt soluta iste
+                            modi
+                            a
+                            labore
+                            itaque, odit deleniti consectetur corporis veniam! Nam fugit exercitationem amet beatae
+                            harum
+                            repudiandae
+                            magnam
+                            adipisci. Error, quaerat odio.</p>
+                    </div>
 
-    <div id="count">
 
-    </div>
+                    <div class="square">
+                        <img src="img/gallery.png" alt="pictures">
+                        <h3>Pet Gallery</h3>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla accusantium deserunt delectus
+                            reiciendis ex.
+                            Deserunt earum reprehenderit dolore, a impedit fugit, aliquid illum expedita dicta adipisci
+                            facere
+                            laborum
+                            nulla
+                            obcaecati blanditiis omnis iusto repellendus sint voluptatum cumque, nam dolorum placeat!
+                        </P>
 
-    <div id="pets">
-        
-    </div>
+                    </div>
+                </div>
+            </div>
 
-    <script src="petsalon.js"></script>
+        </section>
+        <!--This section has divisions-->
 
+    </section>
+    <!--This section has the h1 and another section-->
+
+
+    <main class="content">
+        <div class="site-divs">
+            <div class="v-label">
+                <!-- <img class="" src="img/nutrition.png" alt="food"> -->
+            </div>
+
+            <h2>Prices</h2>
+            <div class="all-divs">
+
+
+                <div class="square">
+                    <h3>Standard Cut</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo provident iste perferendis mollitia
+                        alias quos autem.
+                    </p>
+                    <p>$20.00</p>
+                    <a class="btn" href="#">See more</a>
+                </div>
+
+                <div class="square">
+
+                    <h3>Premium Cut</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo provident iste perferendis mollitia
+                        alias
+                        quos
+                        autem.</p>
+                    <p>$35.00</p>
+                    <a class="btn" href="#">See more</a>
+                </div>
+
+                <div class="square">
+                    <h3>Premium & Wash</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias a autem enim sapiente quasi saepe
+                        possimus
+                        repellat?</p>
+                    <p>$48.00</p>
+                    <a class="btn" href="#">See more</a>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="transform content">
+        <div class="skinny">
+            <!-- <img src="img/lose weight.jpg" alt="losing weight"> -->
+        </div>
+
+        <div>
+            <h2>Transform Your Pet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo optio error aspernatur nihil quae at
+                tempora
+                odit temporibus. Recusandae officiis, adipisci libero suscipit amet vitae corrupti error alias nesciunt
+                molestiae eos quo, voluptatibus ipsum? Consequuntur ipsam at in illum unde?</p>
+        </div>
+        <div class="contact-us">
+            <a href="#" class="contact-us">Contact Us</a>
+        </div>
+    </section>
+    <hr>
+    <section class="comments content">
+        <section class="blog">
+            <div class="desc">
+                <h3>Our Blog</h3>
+                <p contenteditable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, vitae debitis
+                    cupiditate ullam
+                    dolorum
+                    quo,
+                    exercitationem, pariatur assumenda ab id laborum? Excepturi vitae optio beatae quas repellat
+                    nostrum
+                    est
+                    dolorum, totam voluptatum rerum maiores sit velit quam odit, eum, adipisci consequuntur
+                    doloribus?
+                    Totam
+                    aspernatur inventore natus. Nulla fuga id eveniet!</p>
+
+            </div>
+
+            <section class="bt-container">
+
+                <div class="comment-container">
+                    <article class="input-blog">
+                        <h4>Comment</h4>
+                        <p>written by: Adam laston <em>June 26th 2019</em></p>
+                        <p contenteditable="true">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+                            quia, autem aperiam
+                            quo
+                            nesciunt
+                            laboriosam?
+                        </p>
+
+                    </article>
+
+                    <article class="input-blog">
+                        <h4>Comment</h4>
+                        <p>Written by: Archie Miles <em>June 26th 2019</em></p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias quia, autem aperiam
+                            quo
+                            nesciunt
+                            laboriosam?
+                        </p>
+
+                    </article>
+                </div>
+
+                <section class="opinions">
+                    <h3>Testimonials</h3>
+
+                    <div class="post">
+
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus neque
+                            repellat est
+                            debitis
+                            provident cum dolorem fugiat nemo, eveniet, deserunt aliquid. Totam minus voluptatibus
+                            labore
+                            itaque
+                            dolor
+                            accusantium voluptate odit enim reiciendis, tempore soluta aut eum quaerat magnam
+                            corrupti.
+                        </blockquote>
+                        <p>- Lorem Ipsum</p>
+                    </div>
+                </section>
+            </section>
+
+        </section>
+        <!--This closes the comments section-->
+    </section>
+
+    <footer class="footer content">
+        <div  class="footer-items">
+            <div id="footer" class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="#">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>All Rights Reserved &copy Duppy's Gym</p>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
+
+
 
 </html>

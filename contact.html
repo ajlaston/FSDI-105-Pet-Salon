@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:300i,400,700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Salon</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="site-header.initial">
+        <div class="main noland header-content">
+            <div class="bar">
+                <nav class="navigation">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="#">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <div>
+                <h1>Pet Salon</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="content ">
+        <h2>Register A Pet</h2>
+        <form action="">
+            <fieldset class="contact">
+                <legend>Pet Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="PetName" placeholder="enter pet's name">
+
+                <label for="Pet Age">Age:</label>
+                <input type="text" name="name" id="PetAge" placeholder="enter pet's age">
+
+                <label for="services">Service</label>
+                <select id="services">
+                    <option value="" disabled selected>-- Select an Option --</option>
+                    <option value="shower">Shower</option>
+                    <option value="hair cut">Hair Cut</option>
+                    <option value="pedicure">Pedicure</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset class="contact">
+                <legend>Owner's Information</legend>
+                <label for="Owner Name">Owner's Name:</label>
+                <input type="text" name="Ownername" id="OwnerName" placeholder="enter owner's name">
+
+                <legend>Contact Phone</legend>
+                <label for="Owner Name">Phone number:</label>
+                <input type="text" name="Phonenumber" id="PhoneNumber" placeholder="enter owner's phone number">
+            </fieldset>
+
+            <button onclick="registerPet()" name="Send" class="btn btn-primary contact" type="button">Register</button>
+
+            <div>
+                <table class="table">
+                    <thead>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Service</th>
+                        <th>Owners Name</th>
+                        <th>Contact Phone</th>
+                        <th> </th>
+                    </thead>
+                    <tbody id="listBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </form>
+
+
+    </section>
+    <!--This section has the h1 and another section-->
+
+
+    <main class="content">
+        <div class="site-divs">
+
+        </div>
+        <form action="">
+            <input type="search" id="search" placeholder="search for pet">
+            <input type="button" id="button" value="search" onclick="petSearch();" class="btn">
+        </form>
+    </main>
+
+    <footer class="footer content">
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <p>All the rights reserved &copy Duppy's Gym</p>
+    </footer>>
+
+    <script src="petsalon.js"></script>
+</body>
+
+
+
+</html>
